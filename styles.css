@@ -41,6 +41,12 @@ p {
   margin-bottom: .5em;
 }
 
+.fine-print {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: #858585;
+}
+
 /* Flexbox */
 
 .intro,
@@ -87,6 +93,21 @@ p {
   Form
  ================= */
  
+  input {
+    width: 100% ;   
+    margin-bottom: .75rem;
+    padding: .5em;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+  }
+
+  input:focus {
+    outline: none;
+    border-color: #8a71ec;
+    background-color: #e6e8ec;
+  }
+
+
 
 /* =================
   Media queries 
